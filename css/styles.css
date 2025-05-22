@@ -247,7 +247,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 0px 16px;
+  padding: 0p 16px;
   gap: 48px;
   min-width: 360px;
   max-width: 1032px;
@@ -258,7 +258,6 @@ html {
   align-items: flex-start;
   padding: 48px 32px;
   gap: 16px;
-  margin: 0 auto;
   min-width: 328px;
   max-width: 494px;
   background: rgba(255, 255, 255, 0.8);
@@ -278,7 +277,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 100%;
   min-width: 264px;
@@ -308,6 +307,41 @@ html {
 .cta-form-field:focus {
   box-shadow: 0px 0px 1px 4px #807ef2;
 }
+.cta-form-btn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+cursor: pointer;
+width: 100%;
+min-width: 263px;
+max-width: 420px;
+background: linear-gradient(80.23deg, #E8652D -4.25%, #E82DD2 28.23%, #A650FF 69.35%, #009DFF 116.49%);
+border-radius: 16px;
+height: 24px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+margin: 0 auto;
+color: #FFFFFF;
+transition: 200ms ease-in;
+}
+
+.cta-form-btn:hover {
+  background: linear-gradient(
+    88.08deg,
+    #009dff 3.71%,
+    #a650ff 38.56%,
+    #e84980 68.28%,
+    #e8652d 91.86%
+  );
+  box-shadow: 0px 6px 12px rgba(172, 73, 245, 0.3);
+}
+
 .page-footer {
   padding: 32px 0px;
   margin: 0 auto;
